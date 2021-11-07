@@ -1,5 +1,5 @@
 ---
-title: "일정 삭제하기"
+title: "일정 삭제"
 date: 2021-11-7 12:21:00 +0900
 categories: tutorial
 ---
@@ -15,6 +15,6 @@ categories: tutorial
 
 ### Respond
 삭제 요청 처리 여부 문자열로 반환
-```string
+```
 6:00PM dinner Deleted
 ```
