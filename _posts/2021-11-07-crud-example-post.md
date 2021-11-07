@@ -16,6 +16,6 @@ categories: tutorial
 
 ### Response
 추가 요청 처리 여부 문자열로 반환
-```string
+```
 6:00PM dinner Saved
 ```
