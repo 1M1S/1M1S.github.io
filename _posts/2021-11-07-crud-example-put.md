@@ -17,6 +17,6 @@ categories: tutorial
 
 ### Respond
 수정 요청 처리 여부 문자열로 반환
-```string
+```
 6:00PM dinner Edited
 ```
