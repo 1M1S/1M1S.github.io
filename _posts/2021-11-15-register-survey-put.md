@@ -17,7 +17,7 @@ published: true
 
 ### Request Body
 
-DB RegisterSurvey
+DB `RegisterSurvey`
 
 > 수정할 항목들만 전달하면 된다. 나머지는 null로 전달됨.
 

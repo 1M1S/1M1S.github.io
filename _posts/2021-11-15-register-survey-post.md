@@ -13,7 +13,7 @@ published: true
 
 ### Request Body
 
-DB RegisterSurvey
+DB `RegisterSurvey`
 
 | Name          | Type          | Description                    |
 | ------------- | ------------- | ------------------------------ |
