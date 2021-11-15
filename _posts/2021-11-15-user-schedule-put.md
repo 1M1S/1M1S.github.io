@@ -40,7 +40,7 @@ DB `MemberSchedule`
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/schedule/1025`
+`PUT` `http://localhost:8080/api/user/1/schedule/1025`
 
 Request Body
 
@@ -60,7 +60,7 @@ Status code: 200
     "id": 1025,
     "member":{
         "id": 1,
-        "username": "chisan",
+        "username": "user1",
         "password": "1234"
     },
     "content": "수정된 일정",

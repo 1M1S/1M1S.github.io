@@ -39,7 +39,7 @@ Status code: 200
         "id": 1015,
         "member": {
             "id": 1,
-            "username": "chisan",
+            "username": "user1",
             "password": "1234"
         },
         "content": "add2",
@@ -55,7 +55,7 @@ Status code: 200
         "id": 1,
         "member": {
             "id": 1,
-            "username": "chisan",
+            "username": "user1",
             "password": "1234"
         },
         "content": "schedule33",
