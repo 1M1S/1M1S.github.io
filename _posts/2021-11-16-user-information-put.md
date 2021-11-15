@@ -35,6 +35,8 @@ DB `MemberInformation`
 | ----------- | ----------------- | ---------------------- |
 | 200 OK      | MemberInformation | 수정된 유저의 개인정보 |
 
+
+
 ### 예제
 
 #### Sample Request

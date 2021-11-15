@@ -24,6 +24,8 @@ path로 전달된 유저의 일정 삭제
 | 200 OK      | MemberSchedule | 삭제된 일정             |
 | 500         |                | 삭제할 일정이 없는 경우 |
 
+
+
 ### 예제
 
 #### Sample Request

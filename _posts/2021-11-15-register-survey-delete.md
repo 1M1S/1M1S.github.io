@@ -21,6 +21,8 @@ published: true
 | ----------- | -------------- | -------------------- |
 | 200 OK      | RegisterSurvey | 삭제된 설문조사 항목 |
 
+
+
 ### 예제
 
 #### Sample Request

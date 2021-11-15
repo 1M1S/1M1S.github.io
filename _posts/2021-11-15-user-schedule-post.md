@@ -36,6 +36,8 @@ DB `MemberSchedule`
 | ----------- | -------------- | ----------- |
 | 200 OK      | MemberSchedule | 생성된 일정 |
 
+
+
 ### 예제
 
 #### Sample Request
