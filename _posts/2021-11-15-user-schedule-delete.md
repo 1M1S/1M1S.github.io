@@ -17,8 +17,8 @@ path로 전달된 유저의 일정 삭제
 
 | Name               | In   | Required | Type | Description      |
 | ------------------ | ---- | -------- | ---- | ---------------- |
-| user_id            | path | true     | long | 유저의 id        |
-| member_schedule_id | path | true     | long | 삭제할 일정의 id |
+| user_id            | path | true     | Long | 유저의 id        |
+| member_schedule_id | path | true     | Long | 삭제할 일정의 id |
 
 ### Response
 

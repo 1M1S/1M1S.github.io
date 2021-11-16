@@ -15,7 +15,7 @@ path로 전달된 유저의 일정들 시작 시간 기준으로 오름차순 �
 
 | Name    | In   | Required | Type | Description |
 | ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | long | 유저의 id   |
+| user_id | path | true     | Long | 유저의 id   |
 
 ### Response
 

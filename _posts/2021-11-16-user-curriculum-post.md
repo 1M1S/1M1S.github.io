@@ -14,8 +14,8 @@ path로 전달된 유저의 커리큘럼 추가
 
 | Name          | In    | Required | Type | Description        |
 | ------------- | ----- | -------- | ---- | ------------------ |
-| user_id       | path  | true     | long | 유저의 id          |
-| curriculum_id | query | true     | long | 추가할 커리큘럼 id |
+| user_id       | path  | true     | Long | 유저의 id          |
+| curriculum_id | query | true     | Long | 추가할 커리큘럼 id |
 
 ### Response
 

@@ -13,7 +13,7 @@ published: false
 
 | Name               | In   | Required | Type | Description             |
 | ------------------ | ---- | -------- | ---- | ----------------------- |
-| register_survey_id | path | true     | long | 삭제할 설문조사 항목 id |
+| register_survey_id | path | true     | Long | 삭제할 설문조사 항목 id |
 
 ### Response
 

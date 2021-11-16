@@ -15,7 +15,7 @@ path로 전달된 유저의 일정 추가
 
 | Name    | In   | Required | Type | Description |
 | ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | long | 유저의 id   |
+| user_id | path | true     | Long | 유저의 id   |
 
 ### Request Body
 
@@ -26,7 +26,7 @@ DB `MemberSchedule`
 | content     | String        | 일정 내용                 |
 | startTime   | LocalDateTime | 일정 시작 시간            |
 | endTime     | LocalDateTime | 일정 종료 시간            |
-| interest_id | long          | 일정이 해당되는 관심사 id |
+| interest_id | Long          | 일정이 해당되는 관심사 id |
 
 ### Response
 

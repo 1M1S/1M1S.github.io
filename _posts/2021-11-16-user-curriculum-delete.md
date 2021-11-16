@@ -13,8 +13,8 @@ path로 전달된 유저의 커리큘럼 삭제
 
 | Name                 | In   | Required | Type | Description            |
 | -------------------- | ---- | -------- | ---- | ---------------------- |
-| user_id              | path | true     | long | 유저의 id              |
-| member_curriculum_id | path | true     | long | 삭제할 유저커리큘럼 id |
+| user_id              | path | true     | Long | 유저의 id              |
+| member_curriculum_id | path | true     | Long | 삭제할 유저커리큘럼 id |
 
 ### Response
 

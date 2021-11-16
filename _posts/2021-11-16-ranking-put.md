@@ -1,8 +1,8 @@
 ---
 title: "유저 랭킹 초기화 [PUT]"
 date: 2021-11-15 22:21:00 +0900
-categories: ranking put
-published: true
+categories: admin ranking put
+published: false
 
 
 ---

@@ -14,8 +14,8 @@ path로 전달된 유저의 관심분야 수준 변경
 
 | Name               | In    | Required | Type    | Description               |
 | ------------------ | ----- | -------- | ------- | ------------------------- |
-| user_id            | path  | true     | long    | 유저의 id                 |
-| member_interest_id | path  | true     | long    | 수정할 유저의 관심분야 id |
+| user_id            | path  | true     | Long    | 유저의 id                 |
+| member_interest_id | path  | true     | Long    | 수정할 유저의 관심분야 id |
 | level              | query | true     | Integer | 유저의 수준으로 사용할 값 |
 
 ### Response

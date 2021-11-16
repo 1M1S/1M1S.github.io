@@ -13,8 +13,8 @@ path로 전달된 유저의 관심분야 추가
 
 | Name        | In    | Required | Type    | Description               |
 | ----------- | ----- | -------- | ------- | ------------------------- |
-| user_id     | path  | true     | long    | 유저의 id                 |
-| interest_id | query | true     | long    | 관심분야 id               |
+| user_id     | path  | true     | Long    | 유저의 id                 |
+| interest_id | query | true     | Long    | 관심분야 id               |
 | level       | query | true     | Integer | 해당 관심분야의 유저 수준 |
 
 ### Response

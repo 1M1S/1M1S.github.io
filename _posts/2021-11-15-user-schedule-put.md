@@ -24,8 +24,8 @@ path로 전달된 유저의 일정 수정
 
 | Name               | In   | Required | Type | Description      |
 | ------------------ | ---- | -------- | ---- | ---------------- |
-| user_id            | path | true     | long | 유저의 id        |
-| member_schedule_id | path | true     | long | 수정할 일정의 id |
+| user_id            | path | true     | Long | 유저의 id        |
+| member_schedule_id | path | true     | Long | 수정할 일정의 id |
 
 ### Request Body
 
@@ -39,7 +39,7 @@ DB `MemberSchedule`
 | startTime   | LocalDateTime | 일정 시작 시간            |
 | endTime     | LocalDateTime | 일정 종료 시간            |
 | finish      | Boolean       | 일정 완료 여부            |
-| interest_id | long          | 일정이 해당되는 관심사 id |
+| interest_id | Long          | 일정이 해당되는 관심사 id |
 
 ### Response
 

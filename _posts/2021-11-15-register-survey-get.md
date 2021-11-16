@@ -14,7 +14,7 @@ query로 전달된 관심분야에 해당되고, problemNumber 기준으로 내�
 
 | Name        | In    | Required | Type | Description                   |
 | ----------- | ----- | -------- | ---- | ----------------------------- |
-| interest_id | query | true     | long | 읽어올 설문조사의 관심분야 id |
+| interest_id | query | true     | Long | 읽어올 설문조사의 관심분야 id |
 
 ### Response
 
