@@ -7,6 +7,17 @@ published: true
 
 path로 전달된 유저의 일정 수정
 
+> #### 점수 연동
+>
+> 해당 일정의 유저, 관심사가 같은 Ranking의 score가 종료시간-시작시간에 따라 점수가 반영된다.
+>
+> * 일정완료여부가 false인 경우
+>   * 일정완료여부가 true로 변경되면 점수 부여
+> * 일정완료여부가 true인 경우
+>   * 일정완료여부가 false로 변경되면 점수 제거
+>   * 관심사가 변경되면 점수 이동
+>   * 시작시간, 종료시간이 변경되면 점수 변경
+
 `PUT` `http://localhost:8080/api/user/{user_id}/schedule/{member_schedule_id}`
 
 ### URI Parameter

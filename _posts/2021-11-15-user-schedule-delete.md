@@ -3,10 +3,13 @@ title: "유저 일정 삭제 [DELETE]"
 date: 2021-11-15 22:21:00 +0900
 categories: user schedule delete
 published: true
-
 ---
 
 path로 전달된 유저의 일정 삭제
+
+> #### 점수 연동
+>
+> 일정의 완료여부가 true면 부여됐던 점수가 제거된다.
 
 `DELETE` `http://localhost:8080/api/user/{user_id}/schedule/{member_schedule_id}`
 
