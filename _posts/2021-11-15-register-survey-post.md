@@ -2,7 +2,7 @@
 title: "회원가입 설문조사 항목 추가 [POST]"
 date: 2021-11-15 22:21:00 +0900
 categories: admin register-survey post
-published: true
+published: false
 
 
 ---
