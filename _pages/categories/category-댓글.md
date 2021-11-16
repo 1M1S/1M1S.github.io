@@ -1,8 +1,8 @@
 ---
 title: "댓글"
 layout: archive
-permalink: categories/#comment
-author_profile: false
+permalink: categories/comment
+author_profile: true
 sidebar_main: true
 ---
 

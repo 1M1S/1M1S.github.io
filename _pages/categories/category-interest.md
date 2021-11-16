@@ -1,8 +1,8 @@
 ---
 title: "관심사"
 layout: archive
-permalink: categories/#interest
-author_profile: false
+permalink: categories/interest
+author_profile: true
 sidebar_main: true
 ---
 

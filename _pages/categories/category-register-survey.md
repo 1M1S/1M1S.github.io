@@ -1,8 +1,8 @@
 ---
 title: "회원가입 설문조사"
 layout: archive
-permalink: categories/#register-survey
-author_profile: false
+permalink: categories/register-survey
+author_profile: true
 sidebar_main: true
 ---
 

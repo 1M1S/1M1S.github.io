@@ -1,8 +1,8 @@
 ---
 title: "커리큘럼"
 layout: archive
-permalink: categories/#curriculum
-author_profile: false
+permalink: categories/curriculum
+author_profile: true
 sidebar_main: true
 ---
 

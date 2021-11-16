@@ -1,8 +1,8 @@
 ---
 title: "랭킹"
 layout: archive
-permalink: categories/#ranking
-author_profile: false
+permalink: categories/ranking
+author_profile: true
 sidebar_main: true
 ---
 

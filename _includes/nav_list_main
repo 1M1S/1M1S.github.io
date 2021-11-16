@@ -33,13 +33,6 @@
         <span class="nav__sub-title">게시글</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "게시글" %}
-                        <li><a href="/categories/게시글" class="">게시글 ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
                     {% if category[0] == "comment" %}
                         <li><a href="/categories/comment" class="">댓글 ({{category[1].size}})</a></li>
                     {% endif %}

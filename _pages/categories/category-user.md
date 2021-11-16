@@ -1,8 +1,8 @@
 ---
 title: "/api/user"
 layout: archive
-permalink: categories/#user
-author_profile: false
+permalink: categories/user
+author_profile: true
 sidebar_main: true
 ---
 

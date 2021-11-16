@@ -1,8 +1,8 @@
 ---
 title: "게시글"
 layout: archive
-permalink: categories/#게시글
-author_profile: false
+permalink: categories/게시글
+author_profile: true
 sidebar_main: true
 ---
 
