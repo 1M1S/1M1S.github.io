@@ -1,7 +1,7 @@
 ---
 title: "유저 댓글 삭제 [DELETE]"
 date: 2021-11-15 22:21:00 +0900
-categories: user 댓글 DELETE
+categories: user comment DELETE
 published: true
 ---
 

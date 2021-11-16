@@ -1,7 +1,7 @@
 ---
 title: "시간관리 상담"
 layout: archive
-permalink: categories/counsel
+permalink: categories/#counsel
 author_profile: false
 sidebar_main: true
 ---

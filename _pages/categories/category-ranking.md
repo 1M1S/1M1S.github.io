@@ -1,7 +1,7 @@
 ---
 title: "랭킹"
 layout: archive
-permalink: categories/ranking
+permalink: categories/#ranking
 author_profile: false
 sidebar_main: true
 ---

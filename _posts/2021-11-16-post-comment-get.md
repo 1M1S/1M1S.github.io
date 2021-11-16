@@ -1,7 +1,7 @@
 ---
 title: "게시글 댓글 목록 반환 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: user 댓글 GET
+categories: user comment GET
 published: true
 
 

@@ -1,11 +1,11 @@
 ---
 title: "유저 댓글 수정 [PUT]"
 date: 2021-11-15 22:21:00 +0900
-categories: user 게시글 PUT
+categories: user comment PUT
 published: true
 ---
 
-path로 전달받은 id의 유저와 댓글의 작성자를 비교해서 해당 유저가 게시글을 작성했다면 댓글 수정.
+path로 전달받은 id의 유저와 댓글의 작성자를 비교해서 해당 유저가 댓글을 작성했다면 댓글 수정.
 
 `PUT` `http://localhost:8080/api/user/{user_id}/comment/{comment_id}`
 

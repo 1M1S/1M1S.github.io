@@ -1,7 +1,7 @@
 ---
 title: "/api/user"
 layout: archive
-permalink: categories/user
+permalink: categories/#user
 author_profile: false
 sidebar_main: true
 ---

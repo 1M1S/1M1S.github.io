@@ -1,7 +1,7 @@
 ---
 title: "일정"
 layout: archive
-permalink: categories/user-schedule
+permalink: categories/#user-schedule
 author_profile: false
 sidebar_main: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "유저 댓글 추가 [POST]"
 date: 2021-11-15 22:21:00 +0900
-categories: user 댓글 POST
+categories: user comment POST
 published: true
 ---
 
