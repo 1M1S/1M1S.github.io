@@ -1,5 +1,5 @@
 ---
-title: "회원가입 설문조사"
+title: "등록 설문조사"
 layout: archive
 permalink: categories/register-survey
 author_profile: true

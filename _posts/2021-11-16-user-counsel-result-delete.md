@@ -1,7 +1,7 @@
 ---
 title: "유저 상담결과 삭제 [DELETE]"
 date: 2021-11-15 22:21:00 +0900
-categories: user counsel result delete
+categories: user-counsel-result DELETE
 published: true
 
 

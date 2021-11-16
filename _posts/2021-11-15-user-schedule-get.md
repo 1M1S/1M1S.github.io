@@ -1,7 +1,7 @@
 ---
 title: "유저 일정들 읽어오기 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: user-schedule get
+categories: user-schedule GET
 published: true
 
 

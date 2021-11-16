@@ -18,23 +18,129 @@
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "user-schedule" %}
-                        <li><a href="/categories/user-schedule" class="">일정 ({{category[1].size}})</a></li>
+                    {% if category[0] == "user-information" %}
+                        <li><a href="/categories/user-information" class="">- 유저 개인정보 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "ranking" %}
-                        <li><a href="/categories/ranking" class="">랭킹 ({{category[1].size}})</a></li>
+                    {% if category[0] == "user-interest" %}
+                        <li><a href="/categories/user-interest" class="">- 유저 관심사 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">게시글</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "user-schedule" %}
+                        <li><a href="/categories/user-schedule" class="">- 유저 일정 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "user-curriculum" %}
+                        <li><a href="/categories/user-curriculum" class="">- 유저 커리큘럼 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "user-counsel-result" %}
+                        <li><a href="/categories/user-counsel-result" class="">- 유저 상담결과 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "user-post" %}
+                        <li><a href="/categories/user-post" class="">- 유저 게시글 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "user-comment" %}
+                        <li><a href="/categories/user-comment" class="">- 유저 댓글 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "user-ranking" %}
+                        <li><a href="/categories/user-ranking" class="">- 유저 랭킹 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "user-group" %}
+                        <li><a href="/categories/user-group" class="">- 유저 그룹 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">그룹</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "group" %}
+                        <li><a href="/categories/group" class="">- 그룹 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "group-member" %}
+                        <li><a href="/categories/group-member" class="">- 그룹 멤버 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "group-post" %}
+                        <li><a href="/categories/group-post" class="">- 그룹 게시글 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">여러 목록들</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "interest" %}
+                        <li><a href="/categories/interest" class="">- 관심사 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "post" %}
+                        <li><a href="/categories/post" class="">- 게시글 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "comment" %}
-                        <li><a href="/categories/comment" class="">댓글 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/comment" class="">- 댓글 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "curriculum" %}
+                        <li><a href="/categories/curriculum" class="">- 커리큘럼 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "register-survey" %}
+                        <li><a href="/categories/register-survey" class="">- 등록 설문조사 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "counsel" %}
+                        <li><a href="/categories/counsel" class="">- 시간관리 상담 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

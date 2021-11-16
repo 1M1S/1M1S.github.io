@@ -1,7 +1,7 @@
 ---
 title: "유저 커리큘럼 추가 [POST]"
 date: 2021-11-15 22:21:00 +0900
-categories: user curriculum post
+categories: user-curriculum POST
 published: true
 
 ---

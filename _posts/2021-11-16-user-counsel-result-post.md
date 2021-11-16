@@ -1,7 +1,7 @@
 ---
 title: "유저 상담결과 추가 [POST]"
 date: 2021-11-15 22:21:00 +0900
-categories: user counsel result post
+categories: user-counsel-result POST
 published: true
 
 ---

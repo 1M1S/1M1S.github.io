@@ -1,7 +1,7 @@
 ---
 title: "유저 관심분야 삭제 [DELETE]"
 date: 2021-11-15 22:21:00 +0900
-categories: user interest delete
+categories: user-interest DELETE
 published: true
 
 

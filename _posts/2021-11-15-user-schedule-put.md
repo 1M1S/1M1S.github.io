@@ -1,7 +1,7 @@
 ---
 title: "유저 일정 수정 [PUT]"
 date: 2021-11-15 22:21:00 +0900
-categories: user-schedule put
+categories: user-schedule PUT
 published: true
 ---
 

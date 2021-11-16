@@ -1,11 +1,11 @@
 ---
-title: "유저 일정"
+title: "유저 그룹"
 layout: archive
-permalink: categories/user-schedule
+permalink: categories/user-group
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.user-schedule %}
+{% assign posts = site.categories.user-group %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

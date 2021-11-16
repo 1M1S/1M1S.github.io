@@ -1,7 +1,7 @@
 ---
 title: "유저 관심분야 수준 변경 [PUT]"
 date: 2021-11-15 22:21:00 +0900
-categories: user interest put
+categories: user-interest PUT
 published: true
 
 ---

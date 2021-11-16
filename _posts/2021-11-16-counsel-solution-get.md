@@ -1,7 +1,7 @@
 ---
 title: "시간관리 상담 설문조사 상담결과-솔루션 목록 읽어오기 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: counsel solution get
+categories: counsel GET
 published: true
 ---
 

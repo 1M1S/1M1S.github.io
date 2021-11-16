@@ -1,7 +1,7 @@
 ---
 title: "회원가입 설문조사 항목 읽어오기 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: register-survey get
+categories: register-survey GET
 published: true
 
 ---
