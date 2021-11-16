@@ -6,7 +6,7 @@ published: true
 
 ---
 
-query로 전달된 관심분야에 해당되고, problemNumber 기준으로 내림차순 정렬된 **회원가입 설문조사 항목**들 목록 읽어오기.
+query로 전달된 관심분야에 해당되고, problemNumber 기준으로 오름차순 정렬된 **회원가입 설문조사 항목**들 목록 읽어오기.
 
 `GET` `http://localhost:8080/api/register-survey`
 
