@@ -1,7 +1,7 @@
 ---
 title: "커리큘럼의 일정들 읽어오기 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: curriculum-schedule get
+categories: curriculum schedule get
 published: true
 
 ---

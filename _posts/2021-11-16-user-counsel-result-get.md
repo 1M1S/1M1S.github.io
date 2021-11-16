@@ -1,7 +1,7 @@
 ---
 title: "유저 상담결과 목록 읽어오기 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: user counsel-result get
+categories: user counsel result get
 published: true
 
 
