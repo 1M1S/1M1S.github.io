@@ -8,9 +8,7 @@ published: true
 
 ---
 
-유저가 작성한 댓글 목록 작성날짜를 기준으로 내림차순 정렬해서(최근 작성한 순으로) 반환
-
-path로 전달받은 id 게시글의 댓글 목록 작성날짜를 기준으로 내림차순 정렬해서 반환
+path로 전달받은 id 게시글의 댓글 목록 작성날짜를 기준으로 오름차순 정렬해서 반환
 
 `GET` `http://localhost:8080/api/post/{post_id}/comment`
 
@@ -64,6 +62,31 @@ Status code: 200
             "password": "1234"
         },
         "writingDate": "2021-11-16T20:13:38.366965"
+    },
+    {
+        "id": 1036,
+        "post": {
+            "id": 1032,
+            "interest": {
+                "id": 1,
+                "subject": "workout"
+            },
+            "title": "수정",
+            "content": "내용",
+            "member": {
+                "id": 1,
+                "username": "user1",
+                "password": "1234"
+            },
+            "writingDate": "2021-11-16T18:54:23.171422"
+        },
+        "content": "댓글2",
+        "member": {
+            "id": 1,
+            "username": "user1",
+            "password": "1234"
+        },
+        "writingDate": "2021-11-16T20:17:38.366965"
     }
 ]
 ```
