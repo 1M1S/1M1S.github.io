@@ -30,7 +30,7 @@ path로 전달된 유저의 상담 결과 삭제
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/counsel-result/1029`
+`DELETE` `http://localhost:8080/api/user/1/counsel-result/2`
 
 #### Sample Response
 
@@ -38,18 +38,14 @@ Status code: 200
 
 ```json
 {
-    "id": 1029,
+    "id": 2,
     "member":{
         "id": 1,
         "username": "user1",
         "password": "1234"
     },
-    "counselSolution":{
-        "id": 1,
-        "result": "beginner",
-        "solution": "계획세우기"
-    },
-    "counselTime": "2021-11-16T17:09:07.589558"
+    "counselSolution": "{\n  \"result\" : \"솔루션1\n  솔루션2\n  솔루션3\"\n}",
+    "counselTime": "2021-11-27T02:18:51.157082"
 }
 ```
 

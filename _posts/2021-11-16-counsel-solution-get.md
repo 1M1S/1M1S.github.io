@@ -1,23 +1,25 @@
 ---
-title: "시간관리 상담 설문조사 상담결과-솔루션 목록 읽어오기 [GET]"
+title: "시간관리 상담 설문조사 항목별 솔루션 가져오기 [GET]"
 date: 2021-11-15 22:21:00 +0900
 categories: counsel GET
 published: true
 ---
 
-시간관리 상담 결과에 따른 솔루션 목록들 리턴
+시간관리 상담 설문조사 항목에 따른 솔루션 목록들 리턴
 
-> 상담결과를 어떻게 정할지는 아직 미정.
->
-> 설문조사에 따라 시간관리 능력을 상, 중, 하로 분류?
+`GET` `http://localhost:8080/api/counsel-solution/{counsel_survey_id}`
 
-`GET` `http://localhost:8080/api/counsel-solution`
+### URI Parameter
+
+| Name              | In   | Required | Type | Description                    |
+| ----------------- | ---- | -------- | ---- | ------------------------------ |
+| counsel_survey_id | path | true     | Long | 시간관리 상담 설문조사 항목 id |
 
 ### Response
 
-| Status code | Type                       | Description      |
-| ----------- | -------------------------- | ---------------- |
-| 200 OK      | Iterable\<CounselSolution> | 솔루션 목록 리턴 |
+| Status code | Type            | Description                          |
+| ----------- | --------------- | ------------------------------------ |
+| 200 OK      | CounselSolution | 설문조사 항목에 해당하는 솔루션 리턴 |
 
 
 
@@ -25,29 +27,22 @@ published: true
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/counsel-solution`
+`GET` `http://localhost:8080/api/counsel-solution/1`
 
 #### Sample Response
 
 Status code: 200
 
 ```json
-[
-    {
+{
+    "id": 1,
+    "counselSurvey": {
         "id": 1,
-        "result": "beginner",
-        "solution": "계획세우기"
+        "problemNumber": 1,
+        "question": "잘자는가?",
+        "choices": "yes|no"
     },
-    {
-        "id": 2,
-        "result": "junior",
-        "solution": "실천하기"
-    },
-    {
-        "id": 3,
-        "result": "senior",
-        "solution": "앞으로도 지금처럼"
-    }
-]
+    "solution": "잘자라"
+}
 ```
 

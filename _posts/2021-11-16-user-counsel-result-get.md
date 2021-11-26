@@ -7,7 +7,7 @@ published: true
 
 ---
 
-path로 전달된 유저의 상담 결과들 목록을 상담시간을 기준으로 오름차순 정렬해서 반환
+path로 전달된 유저의 상담 결과들 목록을 상담시간 기준으로 내림차순 정렬해서 반환
 
 `GET` `http://localhost:8080/api/user/{user_id}/counsel-result`
 
@@ -38,32 +38,24 @@ Status code: 200
 ```json
 [
     {
-        "id": 1029,
+        "id": 2,
         "member": {
             "id": 1,
             "username": "user1",
             "password": "1234"
         },
-        "counselSolution": {
-            "id": 1,
-            "result": "beginner",
-            "solution": "계획세우기"
-        },
-        "counselTime": "2021-11-16T17:09:07.589558"
+        "counselSolution": "{\n  \"result\" : \"솔루션1\n  솔루션2\n  솔루션3\"\n}",
+        "counselTime": "2021-11-27T02:18:51.157082"
     },
     {
-        "id": 1031,
+        "id": 1,
         "member": {
             "id": 1,
             "username": "user1",
             "password": "1234"
         },
-        "counselSolution": {
-            "id": 3,
-            "result": "senior",
-            "solution": "앞으로도 지금처럼"
-        },
-        "counselTime": "2021-11-16T17:17:55.160018"
+        "counselSolution": "{\n  \"result\" : \"솔루션1\n  솔루션2\n  솔루션3\"\n}",
+        "counselTime": "2021-11-27T02:17:38.062546"
     }
 ]
 ```
