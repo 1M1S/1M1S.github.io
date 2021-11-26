@@ -15,7 +15,9 @@ path로 전달된 유저의 관심분야 추가
 | ----------- | ----- | -------- | ------- | ------------------------- |
 | user_id     | path  | true     | Long    | 유저의 id                 |
 | interest_id | query | true     | Long    | 관심분야 id               |
-| level       | query | true     | Integer | 해당 관심분야의 유저 수준 |
+| level       | query | true     | String | 해당 관심분야의 유저 수준 |
+
+> 수준 : begiiner / junior / expert
 
 ### Response
 
@@ -29,7 +31,7 @@ path로 전달된 유저의 관심분야 추가
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/interest?interest_id=1&level=7`
+`POST` `http://localhost:8080/api/user/1/interest?interest_id=1&level=expert`
 
 #### Sample Response
 
@@ -47,7 +49,7 @@ Status code: 200
         "id": 1,
         "subject": "workout"
     },
-    "level": 7
+    "level": "expert"
 }
 ```
 
