@@ -7,14 +7,14 @@ published: true
 
 path로 전달된 유저의 커리큘럼 삭제
 
-`DELETE` `http://localhost:8080/api/user/{user_id}/interest/{member_curriculum_id}`
+`DELETE` `http://localhost:8080/api/user/{user_id}/curriculum`
 
 ### URI Parameter
 
-| Name                 | In   | Required | Type | Description            |
-| -------------------- | ---- | -------- | ---- | ---------------------- |
-| user_id              | path | true     | Long | 유저의 id              |
-| member_curriculum_id | path | true     | Long | 삭제할 유저커리큘럼 id |
+| Name          | In    | Required | Type | Description        |
+| ------------- | ----- | -------- | ---- | ------------------ |
+| user_id       | path  | true     | Long | 유저의 id          |
+| curriculum_id | query | true     | Long | 삭제할 커리큘럼 id |
 
 ### Response
 
@@ -29,7 +29,7 @@ path로 전달된 유저의 커리큘럼 삭제
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/curriculum/1027`
+`DELETE` `http://localhost:8080/api/user/1/curriculum?curriculum_id=2`
 
 #### Sample Response
 
@@ -50,7 +50,7 @@ Status code: 200
             "id": 2,
             "subject": "job"
         },
-        "level": 3
+        "level": "beginner"
     }
 }
 ```

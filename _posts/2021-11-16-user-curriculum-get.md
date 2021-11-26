@@ -50,7 +50,7 @@ Status code: 200
                 "id": 2,
                 "subject": "job"
             },
-            "level": 3
+            "level": "beginner"
         }
     },
     {
@@ -67,7 +67,7 @@ Status code: 200
                 "id": 1,
                 "subject": "workout"
             },
-            "level": 7
+            "level": "expert"
         }
     }
 ]

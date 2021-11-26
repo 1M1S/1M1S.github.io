@@ -54,7 +54,7 @@ Status code: 200
                 "id": 1,
                 "subject": "workout"
             },
-            "level": 7
+            "level": "beginner"
         },
         "content": "running",
         "interest": {
@@ -71,7 +71,7 @@ Status code: 200
                 "id": 1,
                 "subject": "workout"
             },
-            "level": 7
+            "level": "expert"
         },
         "content": "push-ups",
         "interest": {

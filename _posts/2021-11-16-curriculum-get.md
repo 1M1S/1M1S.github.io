@@ -18,7 +18,7 @@ query로 전달된 수준, 관심분야에 해당하는 커리큘럼 목록 반�
 | Name        | In    | Required | Type    | Description |
 | ----------- | ----- | -------- | ------- | ----------- |
 | interest_id | query | false    | Long    | 관심분야 id |
-| level       | query | false    | Integer | 수준        |
+| level       | query | false    | String | 수준        |
 
 ### Response
 
@@ -47,7 +47,7 @@ Status code: 200
             "id": 1,
             "subject": "workout"
         },
-        "level": 7
+        "level": "beginner"
     },
     {
         "id": 2,
@@ -56,7 +56,7 @@ Status code: 200
             "id": 2,
             "subject": "job"
         },
-        "level": 3
+        "level": "expert"
     }
 ]
 ```
@@ -82,7 +82,7 @@ Status code: 200
             "id": 2,
             "subject": "job"
         },
-        "level": 3
+        "level": "beginner"
     }
 ]
 ```
