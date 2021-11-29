@@ -7,7 +7,7 @@ published: true
 
 유저가 그룹장일 경우, 해당 그룹 수정
 
-`PUT` `http://localhost:8080/login`
+`PUT` `http://localhost:8080/auth/login`
 
 ### URI Parameter
 
@@ -58,7 +58,7 @@ Status code: 200
 
 ```json
 {
-	"x-access-token": "asfjhweuig23423bkhb"
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJudWxsIiwiaWF0IjoxNjM4MTcwNjgwLCJleHAiOjE2MzgxNzE2ODB9.Lcw_f2-fEkye86tR4UVNxzfYk4fiBTyc0PRdgKIEMRs"
 }
 ```
 
