@@ -8,13 +8,9 @@ published: true
 
 유저가 작성한 게시글 목록 작성날짜를 기준으로 내림차순 정렬해서(최근 작성한 순으로) 반환
 
-`GET` `http://3.135.231.171/api/user/{user_id}/post`
+`GET` `http://3.135.231.171/api/user/post`
 
 ### URI Parameter
-
-| Name    | In   | Required | Type | Description |
-| ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | Long | 유저의 id   |
 
 ### Response
 
@@ -28,7 +24,7 @@ published: true
 
 #### Sample Request
 
-`GET` `http://3.135.231.171/api/user/1/post`
+`GET` `http://3.135.231.171/api/user/post`
 
 #### Sample Response
 
@@ -37,34 +33,34 @@ Status code: 200
 ```json
 [
     {
-        "id": 1033,
-        "interest": {
-            "id": 2,
-            "subject": "job"
+        "id": 19,
+        "interest":{
+            "id": 3,
+            "subject": "employ"
         },
         "title": "제목2",
-        "content": "내용",
-        "member": {
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
+        "content": "내용2",
+        "member":{
+            "id": 3,
+            "username": "test",
+            "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
         },
-        "writingDate": "2021-11-16T19:00:52.098342"
+        "writingDate": "2021-12-07T03:31:24"
     },
     {
-        "id": 1032,
-        "interest": {
-            "id": 1,
-            "subject": "workout"
+        "id": 18,
+        "interest":{
+            "id": 0,
+            "subject": "general"
         },
         "title": "제목",
         "content": "내용",
-        "member": {
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
+        "member":{
+            "id": 3,
+            "username": "test",
+            "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
         },
-        "writingDate": "2021-11-16T18:54:23.171422"
+        "writingDate": "2021-12-07T03:30:12"
     }
 ]
 ```

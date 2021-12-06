@@ -8,13 +8,9 @@ published: true
 
 path로 전달된 유저의 게시글 추가
 
-`POST` `http://3.135.231.171/api/user/{user_id}/post`
+`POST` `http://3.135.231.171/api/user/post`
 
 ### URI Parameter
-
-| Name    | In   | Required | Type | Description |
-| ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | Long | 유저의 id   |
 
 ### Request Body
 
@@ -38,14 +34,14 @@ DB `Post`
 
 #### Sample Request
 
-`POST` `http://3.135.231.171/api/user/1/post`
+`POST` `http://3.135.231.171/api/user/post`
 
 Request Body
 
 ```json
 {
     "interest" : {
-        "id" : 1
+        "id" : 0
     },
     "title" : "제목",
     "content" : "내용"
@@ -58,19 +54,19 @@ Status code: 200
 
 ```json
 {
-    "id": 1032,
+    "id": 18,
     "interest":{
-        "id": 1,
-        "subject": null
+        "id": 0,
+        "subject": "general"
     },
     "title": "제목",
     "content": "내용",
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
-    "writingDate": "2021-11-16T18:54:23.1714225"
+    "writingDate": "2021-12-07T03:30:12"
 }
 ```
 

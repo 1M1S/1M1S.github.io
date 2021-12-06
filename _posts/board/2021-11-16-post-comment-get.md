@@ -30,63 +30,39 @@ path로 전달받은 id 게시글의 댓글 목록 작성날짜를 기준으로 
 
 #### Sample Request
 
-`GET` `http://3.135.231.171/api/post/1032/comment`
+`GET` `http://3.135.231.171/api/post/1026/comment`
 
 #### Sample Response
 
 Status code: 200
 
 ```json
+
 [
     {
-        "id": 1035,
-        "post": {
-            "id": 1032,
-            "interest": {
-                "id": 1,
-                "subject": "workout"
+        "id": 1027,
+        "post":{
+            "id": 1026,
+            "interest":{
+                "id": 0,
+                "subject": "general"
             },
-            "title": "수정",
-            "content": "내용",
-            "member": {
+            "title": "하이 치산",
+            "content": "하이 준화",
+            "member":{
                 "id": 1,
-                "username": "user1",
-                "password": "1234"
+                "username": "vcho1958",
+                "password": "$2a$10$jI1tgF/qoAB6PEN.NUroOOoVfbVQaasSdMNPkvFR/15R3a0QQFuQi"
             },
-            "writingDate": "2021-11-16T18:54:23.171422"
+            "writingDate": "2021-12-04T15:41:40"
         },
-        "content": "댓글",
-        "member": {
+        "content": "ㅁㄴㅇ",
+        "member":{
             "id": 1,
-            "username": "user1",
-            "password": "1234"
+            "username": "vcho1958",
+            "password": "$2a$10$jI1tgF/qoAB6PEN.NUroOOoVfbVQaasSdMNPkvFR/15R3a0QQFuQi"
         },
-        "writingDate": "2021-11-16T20:13:38.366965"
-    },
-    {
-        "id": 1036,
-        "post": {
-            "id": 1032,
-            "interest": {
-                "id": 1,
-                "subject": "workout"
-            },
-            "title": "수정",
-            "content": "내용",
-            "member": {
-                "id": 1,
-                "username": "user1",
-                "password": "1234"
-            },
-            "writingDate": "2021-11-16T18:54:23.171422"
-        },
-        "content": "댓글2",
-        "member": {
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
-        },
-        "writingDate": "2021-11-16T20:17:38.366965"
+        "writingDate": "2021-12-04T15:42:16.547277"
     }
 ]
 ```

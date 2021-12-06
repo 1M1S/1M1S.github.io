@@ -7,20 +7,17 @@ published: true
 
 path로 전달받은 id의 유저와 댓글의 작성자를 비교해서 해당 유저가 댓글을 작성했다면 댓글 수정.
 
-`PUT` `http://3.135.231.171/api/user/{user_id}/comment/{comment_id}`
+`PUT` `http://3.135.231.171/api/user/comment/{comment_id}`
 
 ### URI Parameter
 
 | Name       | In   | Required | Type | Description      |
 | ---------- | ---- | -------- | ---- | ---------------- |
-| user_id    | path | true     | Long | 유저의 id        |
 | comment_id | path | true     | Long | 수정할 댓글의 id |
 
 ### Request Body
 
 DB `Comment`
-
-> 수정할 항목만 전달하면 된다. 나머지는 자동으로 null로 전달.
 
 | Name    | Type   | Description |
 | ------- | ------ | ----------- |
@@ -39,7 +36,7 @@ DB `Comment`
 
 #### Sample Request
 
-`PUT` `http://3.135.231.171/api/user/1/comment/1036`
+`PUT` `http://3.135.231.171/api/user/comment/1043`
 
 Request Body
 
@@ -55,29 +52,29 @@ Status code: 200
 
 ```json
 {
-    "id": 1036,
+    "id": 1043,
     "post":{
-        "id": 1032,
+        "id": 1025,
         "interest":{
-            "id": 1,
-            "subject": "workout"
+            "id": 0,
+            "subject": "general"
         },
-        "title": "수정",
-        "content": "내용",
+        "title": "teset",
+        "content": "test",
         "member":{
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
+            "id": 1001,
+            "username": "jjj",
+            "password": "$2a$10$nl1du0FdjzK9HQmWw1eT0eXJtuO3g.9aL22JbXSHymW7gQ1XhCOJe"
         },
-        "writingDate": "2021-11-16T18:54:23.171422"
+        "writingDate": "2021-12-04T15:41:08"
     },
-    "content": "수정된 댓글",
+    "content": "수정된댓글",
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 1030,
+        "username": "test",
+        "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
     },
-    "writingDate": "2021-11-16T20:16:39.56691"
+    "writingDate": "2021-12-06T18:40:27.183677"
 }
 ```
 

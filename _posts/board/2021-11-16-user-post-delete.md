@@ -7,13 +7,12 @@ published: true
 
 path로 전달받은 id의 유저와 게시글의 작성자를 비교해서 해당 유저가 게시글을 작성했다면 게시글 삭제.
 
-`DELETE` `http://3.135.231.171/api/user/{user_id}/post/{post_id}`
+`DELETE` `http://3.135.231.171/api/user/post/{post_id}`
 
 ### URI Parameter
 
 | Name    | In   | Required | Type | Description        |
 | ------- | ---- | -------- | ---- | ------------------ |
-| user_id | path | true     | Long | 유저의 id          |
 | post_id | path | true     | Long | 삭제할 게시글의 id |
 
 ### Response
@@ -29,7 +28,7 @@ path로 전달받은 id의 유저와 게시글의 작성자를 비교해서 해�
 
 #### Sample Request
 
-`DELETE` `http://3.135.231.171/api/user/1/post/1034`
+`DELETE` `http://3.135.231.171/api/user/post/1034`
 
 #### Sample Response
 
@@ -37,19 +36,19 @@ Status code: 200
 
 ```json
 {
-    "id": 1034,
+    "id": 19,
     "interest":{
-        "id": 2,
-        "subject": "job"
+        "id": 3,
+        "subject": "employ"
     },
-    "title": "제목2",
-    "content": "내용",
+    "title": "수정된 제목",
+    "content": "수정된 내용",
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
-    "writingDate": "2021-11-16T19:49:30.811646"
+    "writingDate": "2021-12-07T03:31:24"
 }
 ```
 

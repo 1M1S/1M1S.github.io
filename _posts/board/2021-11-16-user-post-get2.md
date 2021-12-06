@@ -8,20 +8,20 @@ published: true
 
 path로 전달받은 id의 유저와 게시글의 작성자를 비교해서 해당 유저가 게시글을 작성했는지 여부 체크
 
-`GET` `http://3.135.231.171/api/user/{user_id}/post/{post_id}`
+`GET` `http://3.135.231.171/api/user/post/{post_id}`
 
 ### URI Parameter
 
 | Name    | In   | Required | Type | Description                 |
 | ------- | ---- | -------- | ---- | --------------------------- |
-| user_id | path | true     | Long | 유저의 id                   |
 | post_id | path | true     | Long | 작성여부를 체크할 게시글 id |
 
 ### Response
 
-| Status code | Type    | Description            |
-| ----------- | ------- | ---------------------- |
-| 200 OK      | Boolean | 게시글 유저의 작성여부 |
+| Status code | Type         | Description                         |
+| ----------- | ------------ | ----------------------------------- |
+| 200 OK      | Boolean      | true. 해당 게시글은 유저가 작성함.  |
+| 401         | UNAUTHORIZED | 해당 게시글은 유저가 작성하지 않음. |
 
 
 
@@ -29,7 +29,7 @@ path로 전달받은 id의 유저와 게시글의 작성자를 비교해서 해�
 
 #### Sample Request
 
-`GET` `http://3.135.231.171/api/user/1/post/1033`
+`GET` `http://3.135.231.171/api/user/post/19`
 
 #### Sample Response
 
