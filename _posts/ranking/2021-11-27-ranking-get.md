@@ -1,7 +1,7 @@
 ---
 title: "관심분야별 상위 3명 랭커 출력 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: user-ranking GET
+categories: ranking GET
 published: true
 
 ---
