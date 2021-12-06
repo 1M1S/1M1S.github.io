@@ -9,13 +9,12 @@ published: true
 
 path로 전달된 유저의 상담 결과 삭제
 
-`DELETE` `http://3.135.231.171/api/user/{user_id}/counsel-result/{member_counsel_result_id}`
+`DELETE` `http://3.135.231.171/api/user/counsel-result/{member_counsel_result_id}`
 
 ### URI Parameter
 
 | Name                     | In   | Required | Type | Description         |
 | ------------------------ | ---- | -------- | ---- | ------------------- |
-| user_id                  | path | true     | Long | 유저의 id           |
 | member_counsel_result_id | path | true     | Long | 삭제할 상담 결과 id |
 
 ### Response
@@ -30,7 +29,7 @@ path로 전달된 유저의 상담 결과 삭제
 
 #### Sample Request
 
-`DELETE` `http://3.135.231.171/api/user/1/counsel-result/2`
+`DELETE` `http://3.135.231.171/api/user/1/counsel-result/16`
 
 #### Sample Response
 
@@ -38,14 +37,15 @@ Status code: 200
 
 ```json
 {
-    "id": 2,
+    "id": 16,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
-    "counselSolution": "{\n  \"result\" : \"솔루션1\n  솔루션2\n  솔루션3\"\n}",
-    "counselTime": "2021-11-27T02:18:51.157082"
+    "counselSolution": "{\n  \"result\" : \"휴식의 중요성 알기\"\n}",
+    "counselTime": "2021-12-07T03:03:16.978364",
+    "memberId": 3
 }
 ```
 

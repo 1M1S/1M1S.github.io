@@ -8,13 +8,9 @@ published: true
 
 유저별 시간관리 상담 후 결과 저장.
 
-`POST` `http://3.135.231.171/api/user/{user_id}/counsel-result`
+`POST` `http://3.135.231.171/api/user/counsel-result`
 
 ### URI Parameter
-
-| Name    | In   | Required | Type | Description |
-| ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | Long | 유저의 id   |
 
 ### Request Body
 
@@ -40,9 +36,10 @@ Request Body
 
 ```json
 {
-  "result" : "솔루션1
-  솔루션2
-  솔루션3"
+  "result" : "작은 일부터 시작하라.
+  큰 목표는 당신이 당신이 매일 하는 모든 작은 일이 목표에 점점 다가갈때 이루어진다. - Maren Kate
+  주변 정리부터 시작해보는것을 추천한다.
+  시간은 금으로도 살 수 없다."
 }
 ```
 
@@ -52,14 +49,15 @@ Status code: 200
 
 ```json
 {
-    "id": 1,
+    "id": 15,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
-    "counselSolution": "{\n  \"result\" : \"솔루션1\n  솔루션2\n  솔루션3\"\n}",
-    "counselTime": "2021-11-27T02:17:38.0625466"
+    "counselSolution": "{\n  \"result\" : \"작은 일부터 시작하라.\n  큰 목표는 당신이 당신이 매일 하는 모든 작은 일이 목표에 점점 다가갈때 이루어진다. - Maren Kate\n  주변 정리부터 시작해보는것을 추천한다.\n  시간은 금으로도 살 수 없다.\"\n}",
+    "counselTime": "2021-12-07T02:59:52.1026455",
+    "memberId": 3
 }
 ```
 

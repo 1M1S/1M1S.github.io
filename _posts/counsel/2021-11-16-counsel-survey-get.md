@@ -32,16 +32,40 @@ Status code: 200
 ```json
 [
     {
-        "id": 1,
+        "id": 0,
         "problemNumber": 1,
-        "question": "질문1",
-        "choices": "1|2|3|4|5"
+        "question": "주/월 단위의 목표를 세우는가?",
+        "choices": "예|아니요"
+    },
+    {
+        "id": 1,
+        "problemNumber": 2,
+        "question": "일일 계획을 세우는가?",
+        "choices": "예|아니요"
     },
     {
         "id": 2,
-        "problemNumber": 2,
-        "question": "질문2",
-        "choices": "1|2|3|4|5"
+        "problemNumber": 3,
+        "question": "일정들 간의 우선순위를 정하는가?",
+        "choices": "예|아니요"
+    },
+    {
+        "id": 3,
+        "problemNumber": 4,
+        "question": "계획을 잘 지키는가?",
+        "choices": "예|아니요"
+    },
+    {
+        "id": 4,
+        "problemNumber": 5,
+        "question": "시간관리의 중요성을 아는가?",
+        "choices": "예|아니요"
+    },
+    {
+        "id": 5,
+        "problemNumber": 6,
+        "question": "휴식(+숙면)의 중요성을 아는가?",
+        "choices": "예|아니요"
     }
 ]
 ```

@@ -36,13 +36,13 @@ Status code: 200
 ```json
 {
     "id": 1,
-    "counselSurvey": {
+    "counselSurvey":{
         "id": 1,
-        "problemNumber": 1,
-        "question": "잘자는가?",
-        "choices": "yes|no"
+        "problemNumber": 2,
+        "question": "일일 계획을 세우는가?",
+        "choices": "예|아니요"
     },
-    "solution": "잘자라"
+    "solution": "작은 일부터 시작하라.\\n큰 목표는 당신이 당신이 매일 하는 모든 작은 일이 목표에 점점 다가갈때 이루어진다. - Maren Kate\\n주변 정리부터 시작해보는것을 추천한다."
 }
 ```
 
