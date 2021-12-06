@@ -8,13 +8,9 @@ published: true
 
 path로 전달된 유저의 커리큘럼 목록 반환
 
-`GET` `http://3.135.231.171/api/user/{user_id}/curriculum`
+`GET` `http://3.135.231.171/api/user/curriculum`
 
 ### URI Parameter
-
-| Name    | In   | Required | Type | Description |
-| ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | Long | 유저의 id   |
 
 ### Response
 
@@ -28,7 +24,7 @@ path로 전달된 유저의 커리큘럼 목록 반환
 
 #### Sample Request
 
-`GET` `http://3.135.231.171/api/user/1/curriculum`
+`GET` `http://3.135.231.171/api/user/curriculum`
 
 #### Sample Response
 
@@ -37,38 +33,40 @@ Status code: 200
 ```json
 [
     {
-        "id": 1027,
-        "member": {
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
+        "id": 1,
+        "member":{
+            "id": 3,
+            "username": "test",
+            "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
         },
-        "curriculum": {
-            "id": 2,
-            "name": "beginner",
-            "interest": {
-                "id": 2,
-                "subject": "job"
+        "curriculum":{
+            "id": 0,
+            "name": "운동 - 초급자",
+            "interest":{
+                "id": 1,
+                "subject": "exercise"
             },
             "level": "beginner"
-        }
+        },
+        "memberId": 3
     },
     {
-        "id": 1028,
-        "member": {
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
+        "id": 14,
+        "member":{
+            "id": 3,
+            "username": "test",
+            "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
         },
-        "curriculum": {
-            "id": 1,
-            "name": "sample_curriculum",
-            "interest": {
-                "id": 1,
-                "subject": "workout"
+        "curriculum":{
+            "id": 2,
+            "name": "프로그래밍 - 초급자",
+            "interest":{
+                "id": 2,
+                "subject": "programming"
             },
-            "level": "expert"
-        }
+            "level": "beginner"
+        },
+        "memberId": 3
     }
 ]
 ```

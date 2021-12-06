@@ -7,14 +7,15 @@ published: true
 
 path로 전달된 유저의 커리큘럼 삭제
 
-`DELETE` `http://3.135.231.171/api/user/{user_id}/curriculum`
+`DELETE` `http://3.135.231.171/api/user/curriculum`
 
 ### URI Parameter
 
 | Name          | In    | Required | Type | Description        |
 | ------------- | ----- | -------- | ---- | ------------------ |
-| user_id       | path  | true     | Long | 유저의 id          |
 | curriculum_id | query | true     | Long | 삭제할 커리큘럼 id |
+
+> user_curriculum_id가 아니라 curriculum_id임에 주의. 예시를 보면 이해하기 더 쉬울 것이다.
 
 ### Response
 
@@ -29,7 +30,7 @@ path로 전달된 유저의 커리큘럼 삭제
 
 #### Sample Request
 
-`DELETE` `http://3.135.231.171/api/user/1/curriculum?curriculum_id=2`
+`DELETE` `http://3.135.231.171/api/user/curriculum?curriculum_id=0`
 
 #### Sample Response
 
@@ -37,21 +38,22 @@ Status code: 200
 
 ```json
 {
-    "id": 1027,
+    "id": 1,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
     "curriculum":{
-        "id": 2,
-        "name": "beginner",
+        "id": 0,
+        "name": "운동 - 초급자",
         "interest":{
-            "id": 2,
-            "subject": "job"
+            "id": 1,
+            "subject": "exercise"
         },
         "level": "beginner"
-    }
+    },
+    "memberId": 3
 }
 ```
 

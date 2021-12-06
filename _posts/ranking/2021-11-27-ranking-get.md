@@ -28,7 +28,7 @@ query로 전달된 관심분야에서 1등, 2등, 3등 순으로 Ranking 반환
 
 #### Sample Request
 
-`GET` `http://3.135.231.171/api/ranking/top3?interest_id=0`
+`GET` `http://3.135.231.171/api/ranking/top3?interest_id=1`
 
 #### Sample Response
 
@@ -37,43 +37,43 @@ Status code: 200
 ```json
 [
     {
-        "id": 1,
-        "member": {
-            "id": 2,
-            "username": "user2",
-            "password": "2345"
+        "id": 1034,
+        "member":{
+            "id": 1030,
+            "username": "test",
+            "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
         },
-        "interest": {
-            "id": 0,
-            "subject": "general"
-        },
-        "score": 100
-    },
-    {
-        "id": 5,
-        "member": {
-            "id": 4,
-            "username": "user4",
-            "password": "4567"
-        },
-        "interest": {
-            "id": 0,
-            "subject": "general"
-        },
-        "score": 99
-    },
-    {
-        "id": 3,
-        "member": {
+        "interest":{
             "id": 1,
-            "username": "user1",
-            "password": "1234"
+            "subject": "exercise"
         },
-        "interest": {
-            "id": 0,
-            "subject": "general"
+        "score": 118
+    },
+    {
+        "id": 4,
+        "member":{
+            "id": 1,
+            "username": "vcho1958",
+            "password": "$2a$10$jI1tgF/qoAB6PEN.NUroOOoVfbVQaasSdMNPkvFR/15R3a0QQFuQi"
         },
-        "score": 90
+        "interest":{
+            "id": 1,
+            "subject": "exercise"
+        },
+        "score": 0
+    },
+    {
+        "id": 1004,
+        "member":{
+            "id": 1001,
+            "username": "jjj",
+            "password": "$2a$10$nl1du0FdjzK9HQmWw1eT0eXJtuO3g.9aL22JbXSHymW7gQ1XhCOJe"
+        },
+        "interest":{
+            "id": 1,
+            "subject": "exercise"
+        },
+        "score": 0
     }
 ]
 ```

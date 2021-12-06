@@ -8,13 +8,12 @@ published: true
 
 path로 전달된 유저의 커리큘럼 추가
 
-`POST` `http://3.135.231.171/api/user/{user_id}/curriculum`
+`POST` `http://3.135.231.171/api/user/curriculum`
 
 ### URI Parameter
 
 | Name          | In    | Required | Type | Description        |
 | ------------- | ----- | -------- | ---- | ------------------ |
-| user_id       | path  | true     | Long | 유저의 id          |
 | curriculum_id | query | true     | Long | 추가할 커리큘럼 id |
 
 ### Response
@@ -29,7 +28,7 @@ path로 전달된 유저의 커리큘럼 추가
 
 #### Sample Request
 
-`POST` `http://3.135.231.171/api/user/1/curriculum?curriculum_id=2`
+`POST` `http://3.135.231.171/api/user/curriculum?curriculum_id=2`
 
 #### Sample Response
 
@@ -37,21 +36,22 @@ Status code: 200
 
 ```json
 {
-    "id": 1027,
+    "id": 14,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
     "curriculum":{
         "id": 2,
-        "name": "beginner",
+        "name": "프로그래밍 - 초급자",
         "interest":{
             "id": 2,
-            "subject": "job"
+            "subject": "programming"
         },
         "level": "beginner"
-    }
+    },
+    "memberId": 3
 }
 ```
 

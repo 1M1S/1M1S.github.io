@@ -20,7 +20,6 @@ query로 전달된 관심분야에서의 유저 순위 반환
 
 | Name        | In    | Required | Type | Description |
 | ----------- | ----- | -------- | ---- | ----------- |
-| user_id     | query | true     | Long | 유저의 id   |
 | interest_id | query | true     | Long | 관심분야 id |
 
 ### Response
@@ -35,7 +34,7 @@ query로 전달된 관심분야에서의 유저 순위 반환
 
 #### Sample Request
 
-`GET` `http://3.135.231.171/api/ranking?user_id=3&interest_id=1`
+`GET` `http://3.135.231.171/api/ranking?interest_id=1`
 
 #### Sample Response
 
