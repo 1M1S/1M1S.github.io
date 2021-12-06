@@ -11,7 +11,7 @@ published: true
 
 > 그룹 가입 취소를 할때에도 해당 그룹을 탈퇴하면 된다.
 
-`DELETE` `http://localhost:8080/api/user/{user_id}/group/{group_id}`
+`DELETE` `http://3.135.231.171/api/user/{user_id}/group/{group_id}`
 
 ### URI Parameter
 
@@ -32,7 +32,7 @@ published: true
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/group/4`
+`DELETE` `http://3.135.231.171/api/user/1/group/4`
 
 #### Sample Response
 

@@ -1,32 +1,26 @@
 ---
-title: "로그인 [GET]"
+title: "로그인 [POST]"
 date: 2021-11-26 22:21:00 +0900
 categories: auth
 published: true
 ---
 
-유저가 그룹장일 경우, 해당 그룹 수정
+유저명과 암호를 전달하면 앞으로 유저 인증을 할때 사용할 토큰을 반환해준다.
 
-`PUT` `http://localhost:8080/auth/login`
+로그인 이후로 요청을 보낼때 `x-access-token` 값으로 이 토큰을 넣어서 전달해주면 된다.
+
+`POST` `http://3.135.231.171/auth/login`
 
 ### URI Parameter
 
 ### Request Body
 
-DB `Group`
-
-> 수정할 항목들의 값만 전달하면 된다. 나머진 null로 자동전달.
-
 ```json
 {
-	"username": "asdqwr",//string
-    "password": "aqwe"//string
+    "username": "test",
+    "password": "1234"
 }
 ```
-
-
-
-
 
 ### Response
 
@@ -41,14 +35,14 @@ DB `Group`
 
 #### Sample Request
 
-GET `http://localhost:8080/login`
+GET `http://3.135.231.171/login`
 
 Request Body
 
 ```json
 {
-	"username": "asdqwr", //string
-    "password": "aqwe" //string
+    "username": "test",
+    "password": "1234"
 }
 ```
 
@@ -58,7 +52,7 @@ Status code: 200
 
 ```json
 {
-  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJudWxsIiwiaWF0IjoxNjM4MTcwNjgwLCJleHAiOjE2MzgxNzE2ODB9.Lcw_f2-fEkye86tR4UVNxzfYk4fiBTyc0PRdgKIEMRs"
+    "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMDMwIiwiaWF0IjoxNjM4NzgzMDc5LCJleHAiOjEwMDAwMDE2Mzg3ODMwNzl9.05kaxXmS9xHCtE1_nBMTDReZu1gE0FOcIcBxMbb6ZrU"
 }
 ```
 

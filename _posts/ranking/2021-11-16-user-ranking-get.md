@@ -14,7 +14,7 @@ query로 전달된 관심분야에서의 유저 순위 반환
 > 1, 2, 3, 3, 3, 4, ...
 > ```
 
-`GET` `http://localhost:8080/api/ranking`
+`GET` `http://3.135.231.171/api/ranking`
 
 ### URI Parameter
 
@@ -35,7 +35,7 @@ query로 전달된 관심분야에서의 유저 순위 반환
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/ranking?user_id=3&interest_id=1`
+`GET` `http://3.135.231.171/api/ranking?user_id=3&interest_id=1`
 
 #### Sample Response
 

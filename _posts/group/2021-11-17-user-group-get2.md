@@ -8,7 +8,7 @@ published: true
 
 path로 전달된 그룹 읽어오기
 
-`GET` `http://localhost:8080/api/user/{user_id}/group/{group_id}`
+`GET` `http://3.135.231.171/api/user/{user_id}/group/{group_id}`
 
 ### URI Parameter
 
@@ -29,7 +29,7 @@ path로 전달된 그룹 읽어오기
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/group/2`
+`GET` `http://3.135.231.171/api/user/1/group/2`
 
 #### Sample Response
 

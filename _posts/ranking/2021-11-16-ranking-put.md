@@ -9,7 +9,7 @@ published: false
 
 모든 점수를 0으로 만들어서 유저 순위를 초기화한다.
 
-`PUT` `http://localhost:8080/api/ranking`
+`PUT` `http://3.135.231.171/api/ranking`
 
 ### Response
 
@@ -23,7 +23,7 @@ published: false
 
 #### Sample Request
 
-`PUT` `http://localhost:8080/api/ranking`
+`PUT` `http://3.135.231.171/api/ranking`
 
 #### Sample Response
 

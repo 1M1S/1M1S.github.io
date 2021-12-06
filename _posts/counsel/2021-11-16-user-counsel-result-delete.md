@@ -9,7 +9,7 @@ published: true
 
 path로 전달된 유저의 상담 결과 삭제
 
-`DELETE` `http://localhost:8080/api/user/{user_id}/counsel-result/{member_counsel_result_id}`
+`DELETE` `http://3.135.231.171/api/user/{user_id}/counsel-result/{member_counsel_result_id}`
 
 ### URI Parameter
 
@@ -30,7 +30,7 @@ path로 전달된 유저의 상담 결과 삭제
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/counsel-result/2`
+`DELETE` `http://3.135.231.171/api/user/1/counsel-result/2`
 
 #### Sample Response
 

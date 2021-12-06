@@ -8,7 +8,7 @@ published: true
 
 유저가 작성한 게시글 목록 작성날짜를 기준으로 내림차순 정렬해서(최근 작성한 순으로) 반환
 
-`GET` `http://localhost:8080/api/user/{user_id}/post`
+`GET` `http://3.135.231.171/api/user/{user_id}/post`
 
 ### URI Parameter
 
@@ -28,7 +28,7 @@ published: true
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/post`
+`GET` `http://3.135.231.171/api/user/1/post`
 
 #### Sample Response
 

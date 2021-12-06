@@ -7,7 +7,7 @@ published: true
 
 유저가 그룹장일 경우 해당 그룹의 멤버들 강퇴할 수 있다.
 
-`DELETE` `http://localhost:8080/api/user/{user_id}/group/{group_id}/member/{member_id}`
+`DELETE` `http://3.135.231.171/api/user/{user_id}/group/{group_id}/member/{member_id}`
 
 ### URI Parameter
 
@@ -30,7 +30,7 @@ published: true
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/group/2/member/4`
+`DELETE` `http://3.135.231.171/api/user/1/group/2/member/4`
 
 #### Sample Response
 

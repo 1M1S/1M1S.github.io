@@ -7,13 +7,9 @@ published: true
 
 path로 전달된 유저의 관심분야 목록 반환
 
-`GET` `http://localhost:8080//api/user/{user_id}/interest`
+`GET` `http://3.135.231.171//api/user/interest`
 
 ### URI Parameter
-
-| Name    | In   | Required | Type | Description |
-| ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | Long | 유저의 id   |
 
 ### Response
 
@@ -27,7 +23,7 @@ path로 전달된 유저의 관심분야 목록 반환
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/interest`
+`GET` `http://3.135.231.171/api/user/interest`
 
 #### Sample Response
 
@@ -36,30 +32,30 @@ Status code: 200
 ```json
 [
     {
-        "id": 1004,
-        "member": {
+        "id": 1040,
+        "member":{
+            "id": 1030,
+            "username": "test",
+            "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
+        },
+        "interest":{
             "id": 1,
-            "username": "user1",
-            "password": "1234"
+            "subject": "exercise"
         },
-        "interest": {
-            "id": 2,
-            "subject": "job"
-        },
-        "level": 7
+        "level": "beginner"
     },
     {
-        "id": 1026,
-        "member": {
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
+        "id": 1041,
+        "member":{
+            "id": 1030,
+            "username": "test",
+            "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
         },
-        "interest": {
-            "id": 1,
-            "subject": "workout"
+        "interest":{
+            "id": 3,
+            "subject": "employ"
         },
-        "level": 7
+        "level": "expert"
     }
 ]
 ```

@@ -9,7 +9,7 @@ published: true
 
 problemNumber 기준으로 오름차순 정렬된 **시간관리 상담 설문조사 항목**들 목록 읽어오기.
 
-`GET` `http://localhost:8080/api/counsel-survey`
+`GET` `http://3.135.231.171/api/counsel-survey`
 
 ### Response
 
@@ -23,7 +23,7 @@ problemNumber 기준으로 오름차순 정렬된 **시간관리 상담 설문�
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/counsel-survey`
+`GET` `http://3.135.231.171/api/counsel-survey`
 
 #### Sample Response
 

@@ -7,7 +7,7 @@ published: true
 
 query로 전달된 수준, 관심분야에 해당하는 커리큘럼 목록 반환
 
-`GET` `http://localhost:8080/api/curriculum`
+`GET` `http://3.135.231.171/api/curriculum`
 
 ### URI Parameter
 
@@ -32,7 +32,7 @@ query로 전달된 수준, 관심분야에 해당하는 커리큘럼 목록 반�
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/curriculum`
+`GET` `http://3.135.231.171/api/curriculum`
 
 #### Sample Response
 
@@ -67,7 +67,7 @@ Status code: 200
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/curriculum?interest_id=2&level=3`
+`GET` `http://3.135.231.171/api/curriculum?interest_id=2&level=3`
 
 #### Sample Response
 

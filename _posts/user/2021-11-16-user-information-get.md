@@ -7,13 +7,9 @@ published: true
 
 path로 전달된 유저의 개인정보 반환
 
-`GET` `http://localhost:8080/api/user/{user_id}/information`
+`GET` `http://3.135.231.171/auth/me`
 
 ### URI Parameter
-
-| Name    | In   | Required | Type | Description |
-| ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | Long | 유저의 id   |
 
 ### Response
 
@@ -27,7 +23,7 @@ path로 전달된 유저의 개인정보 반환
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/information`
+`GET` `http://3.135.231.171/auth/me`
 
 #### Sample Response
 
@@ -35,18 +31,19 @@ Status code: 200
 
 ```json
 {
-    "id": 1,
+    "id": 1031,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 1030,
+        "username": "test",
+        "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
     },
-    "name": "c",
-    "nickname": "test",
+    "name": "안치산",
+    "nickname": "테스트",
     "gender": "male",
-    "phone": "010-1234-5678",
-    "email": "none@gmail.com",
-    "registerDate": "2021-11-14T00:00:00"
+    "phone": null,
+    "email": "chisan@test.com",
+    "register_date": "2021-12-06T09:27:43.784559",
+    "memberId": 1030
 }
 ```
 

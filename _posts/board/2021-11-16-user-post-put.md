@@ -7,7 +7,7 @@ published: true
 
 path로 전달받은 id의 유저와 게시글의 작성자를 비교해서 해당 유저가 게시글을 작성했다면 게시글 수정.
 
-`PUT` `http://localhost:8080/api/user/{user_id}/post/{post_id}`
+`PUT` `http://3.135.231.171/api/user/{user_id}/post/{post_id}`
 
 ### URI Parameter
 
@@ -41,7 +41,7 @@ DB `Post`
 
 #### Sample Request
 
-`PUT` `http://localhost:8080/api/user/1/post/1033`
+`PUT` `http://3.135.231.171/api/user/1/post/1033`
 
 Request Body
 

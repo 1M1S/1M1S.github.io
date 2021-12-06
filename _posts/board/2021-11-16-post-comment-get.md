@@ -10,7 +10,7 @@ published: true
 
 path로 전달받은 id 게시글의 댓글 목록 작성날짜를 기준으로 오름차순 정렬해서 반환
 
-`GET` `http://localhost:8080/api/post/{post_id}/comment`
+`GET` `http://3.135.231.171/api/post/{post_id}/comment`
 
 ### URI Parameter
 
@@ -30,7 +30,7 @@ path로 전달받은 id 게시글의 댓글 목록 작성날짜를 기준으로 
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/post/1032/comment`
+`GET` `http://3.135.231.171/api/post/1032/comment`
 
 #### Sample Response
 

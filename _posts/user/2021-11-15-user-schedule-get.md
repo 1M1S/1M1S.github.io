@@ -9,7 +9,7 @@ published: true
 
 path로 전달된 유저, 날짜에 해당하는 일정 목록들을 시작 시간 기준으로 오름차순 정렬해서 반환해준다.
 
-`GET` `http://localhost:8080/api/user/{user_id}/schedule`
+`GET` `http://3.135.231.171/api/user/schedule`
 
 ### URI Parameter
 
@@ -30,7 +30,7 @@ path로 전달된 유저, 날짜에 해당하는 일정 목록들을 시작 시�
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/schedule?search_time=2021-11-21`
+`GET` `http://3.135.231.171/api/user/schedule?search_time=2021-11-18`
 
 #### Sample Response
 
@@ -39,35 +39,35 @@ Status code: 200
 ```json
 [
     {
-        "id": 1004,
+        "id": 9,
         "member":{
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
+            "id": 3,
+            "username": "test",
+            "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
         },
         "content": "post",
-        "startTime": "2021-11-21T13:54:57",
-        "endTime": "2021-11-21T14:54:25",
-        "finish": false,
+        "startTime": "2021-11-18T13:54:57",
+        "endTime": "2021-11-18T14:54:25",
+        "finish": true,
         "interest":{
             "id": 1,
-            "subject": "workout"
+            "subject": "exercise"
         }
     },
     {
-        "id": 1005,
+        "id": 10,
         "member":{
-            "id": 1,
-            "username": "user1",
-            "password": "1234"
+            "id": 3,
+            "username": "test",
+            "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
         },
-        "content": "post",
-        "startTime": "2021-11-21T14:54:57",
-        "endTime": "2021-11-21T15:54:25",
+        "content": "edited post2",
+        "startTime": "2021-11-18T15:54:57",
+        "endTime": "2021-11-18T18:54:25",
         "finish": false,
         "interest":{
-            "id": 1,
-            "subject": "workout"
+            "id": 3,
+            "subject": "employ"
         }
     }
 ]

@@ -8,15 +8,14 @@ published: true
 
 path로 전달된 유저의 관심분야 수준 변경
 
-`PUT` `http://localhost:8080/api/user/{user_id}/interest/{member_interest_id}`
+`PUT` `http://3.135.231.171/api/user/interest/{member_interest_id}`
 
 ### URI Parameter
 
-| Name               | In    | Required | Type    | Description               |
-| ------------------ | ----- | -------- | ------- | ------------------------- |
-| user_id            | path  | true     | Long    | 유저의 id                 |
-| member_interest_id | path  | true     | Long    | 수정할 유저의 관심분야 id |
-| level              | query | true     | Integer | 유저의 수준으로 사용할 값 |
+| Name               | In    | Required | Type   | Description               |
+| ------------------ | ----- | -------- | ------ | ------------------------- |
+| member_interest_id | path  | true     | Long   | 수정할 유저의 관심분야 id |
+| level              | query | true     | String | 유저의 수준으로 변경할 값 |
 
 ### Response
 
@@ -30,7 +29,7 @@ path로 전달된 유저의 관심분야 수준 변경
 
 #### Sample Request
 
-`PUT` `http://localhost:8080/api/user/1/interest/1026?level=5`
+`PUT` `http://3.135.231.171/api/user/interest/1040?level=junior`
 
 #### Sample Response
 
@@ -38,17 +37,17 @@ Status code: 200
 
 ```json
 {
-    "id": 1026,
+    "id": 1040,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 1030,
+        "username": "test",
+        "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
     },
     "interest":{
         "id": 1,
-        "subject": "workout"
+        "subject": "exercise"
     },
-    "level": 5
+    "level": "junior"
 }
 ```
 

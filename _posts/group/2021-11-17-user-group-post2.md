@@ -11,7 +11,7 @@ path로 전달된 유저가 그룹에 가입 요청
 >
 > 추후에 그룹장이 authority를 "일반멤버"로 수정해주면 그룹 가입 완료.
 
-`POST` `http://localhost:8080/api/user/{user_id}/group/{group_id}`
+`POST` `http://3.135.231.171/api/user/{user_id}/group/{group_id}`
 
 ### URI Parameter
 
@@ -32,7 +32,7 @@ path로 전달된 유저가 그룹에 가입 요청
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/group/4`
+`POST` `http://3.135.231.171/api/user/1/group/4`
 
 #### Sample Response
 

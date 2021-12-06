@@ -21,7 +21,7 @@
 				{% for category in site.categories %} {% if category[0] == "auth" %}
 				<li>
 					<a href="/categories/auth" class=""
-						>- 회원가입/로그인/로그아웃 ({{ category[1].size }})</a
+						>- 회원가입/로그인 ({{ category[1].size }})</a
 					>
 				</li>
 				{% endif %} {% endfor %}

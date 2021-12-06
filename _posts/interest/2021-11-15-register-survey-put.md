@@ -7,7 +7,7 @@ published: false
 
 회원가입 설문조사 항목 수정.
 
-`PUT` `http://localhost:8080/api/admin/register-survey/{register_survey_id}`
+`PUT` `http://3.135.231.171/api/admin/register-survey/{register_survey_id}`
 
 ### URI Parameter
 
@@ -40,7 +40,7 @@ DB `RegisterSurvey`
 
 #### Sample Request
 
-`PUT` `http://localhost:8080/api/admin/register-survey/1022`
+`PUT` `http://3.135.231.171/api/admin/register-survey/1022`
 
 Request Body
 

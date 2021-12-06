@@ -5,7 +5,7 @@ categories: tutorial
 ---
 시간 순서대로 정렬해서 모든 일정들을 반환한다.
 
-`GET` `http://localhost:8080/`
+`GET` `http://3.135.231.171/`
 
 ### Response
 
@@ -17,7 +17,7 @@ categories: tutorial
 
 #### Sample Request
 
-`GET` `http://localhost:8080/`
+`GET` `http://3.135.231.171/`
 
 #### Sample Response
 

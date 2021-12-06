@@ -10,7 +10,7 @@ published: true
 
 관심분야 목록 리턴
 
-`GET` `http://localhost:8080/api/interest`
+`GET` `http://3.135.231.171/api/interest`
 
 ### Response
 
@@ -24,7 +24,7 @@ published: true
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/interest`
+`GET` `http://3.135.231.171/api/interest`
 
 #### Sample Response
 
@@ -33,16 +33,20 @@ Status code: 200
 ```json
 [
     {
+        "id": 0,
+        "subject": "general"
+    },
+    {
         "id": 1,
-        "subject": "workout"
+        "subject": "exercise"
     },
     {
         "id": 2,
-        "subject": "job"
+        "subject": "programming"
     },
     {
         "id": 3,
-        "subject": "programming"
+        "subject": "employ"
     }
 ]
 ```

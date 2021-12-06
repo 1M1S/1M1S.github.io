@@ -8,7 +8,7 @@ published: true
 
 path로 전달된 유저의 커리큘럼 추가
 
-`POST` `http://localhost:8080/api/user/{user_id}/curriculum`
+`POST` `http://3.135.231.171/api/user/{user_id}/curriculum`
 
 ### URI Parameter
 
@@ -29,7 +29,7 @@ path로 전달된 유저의 커리큘럼 추가
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/curriculum?curriculum_id=2`
+`POST` `http://3.135.231.171/api/user/1/curriculum?curriculum_id=2`
 
 #### Sample Response
 

@@ -5,7 +5,7 @@ categories: tutorial
 ---
 수정할 일정의 id, 시간, 내용을 전달받아 일정을 수정하고 수정된 일정을 반환한다.
 
-`PUT` `http://localhost:8080/{id}`
+`PUT` `http://3.135.231.171/{id}`
 
 ### URI Parameter
 
@@ -32,7 +32,7 @@ time이나 content 중 한가지만 수정하려면 수정하지 않을 항목�
 
 #### Sample Request
 
-`PUT` `http://localhost:8080/34`
+`PUT` `http://3.135.231.171/34`
 
 Request Body
 

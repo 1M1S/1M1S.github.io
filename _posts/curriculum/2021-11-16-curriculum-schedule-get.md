@@ -8,7 +8,7 @@ published: true
 
 커리큘럼에 포함되어 있는 일정 목록 반환
 
-`GET` `http://localhost:8080/api/curriculum/{curriculum_id}/schedule`
+`GET` `http://3.135.231.171/api/curriculum/{curriculum_id}/schedule`
 
 ### URI Parameter
 
@@ -37,7 +37,7 @@ CurriculumSchedule
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/curriculum/1/schedule`
+`GET` `http://3.135.231.171/api/curriculum/1/schedule`
 
 #### Sample Response
 

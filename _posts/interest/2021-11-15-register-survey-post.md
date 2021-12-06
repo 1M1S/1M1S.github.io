@@ -9,7 +9,7 @@ published: false
 
 회원가입 설문조사 항목 추가.
 
-`POST` `http://localhost:8080/api/admin/register-survey`
+`POST` `http://3.135.231.171/api/admin/register-survey`
 
 ### Request Body
 
@@ -34,7 +34,7 @@ DB `RegisterSurvey`
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/admin/register-survey`
+`POST` `http://3.135.231.171/api/admin/register-survey`
 
 Request Body
 

@@ -11,13 +11,12 @@ path로 전달된 유저의 일정 삭제
 >
 > 일정의 완료여부가 true면 부여됐던 점수가 제거된다.
 
-`DELETE` `http://localhost:8080/api/user/{user_id}/schedule/{member_schedule_id}`
+`DELETE` `http://3.135.231.171/api/user/schedule/{member_schedule_id}`
 
 ### URI Parameter
 
 | Name               | In   | Required | Type | Description      |
 | ------------------ | ---- | -------- | ---- | ---------------- |
-| user_id            | path | true     | Long | 유저의 id        |
 | member_schedule_id | path | true     | Long | 삭제할 일정의 id |
 
 ### Response
@@ -33,7 +32,7 @@ path로 전달된 유저의 일정 삭제
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/schedule/1025`
+`DELETE` `http://3.135.231.171/api/user/schedule/9`
 
 #### Sample Response
 
@@ -41,19 +40,19 @@ Status code: 200
 
 ```json
 {
-    "id": 1025,
+    "id": 9,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
-    "content": "수정된 일정",
+    "content": "post",
     "startTime": "2021-11-18T13:54:57",
-    "endTime": "2021-11-18T14:54:25",
+    "endTime": "2021-11-18T17:54:25",
     "finish": true,
     "interest":{
         "id": 1,
-        "subject": "workout"
+        "subject": "exercise"
     }
 }
 ```

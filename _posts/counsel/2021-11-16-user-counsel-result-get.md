@@ -9,7 +9,7 @@ published: true
 
 path로 전달된 유저의 상담 결과들 목록을 상담시간 기준으로 내림차순 정렬해서 반환
 
-`GET` `http://localhost:8080/api/user/{user_id}/counsel-result`
+`GET` `http://3.135.231.171/api/user/{user_id}/counsel-result`
 
 ### URI Parameter
 
@@ -29,7 +29,7 @@ path로 전달된 유저의 상담 결과들 목록을 상담시간 기준으로
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/counsel-result`
+`GET` `http://3.135.231.171/api/user/1/counsel-result`
 
 #### Sample Response
 

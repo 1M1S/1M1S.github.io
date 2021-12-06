@@ -7,7 +7,7 @@ published: true
 
 유저가 그룹장일 경우, 해당 그룹 수정
 
-`PUT` `http://localhost:8080/api/user/{user_id}/group/{group_id}`
+`PUT` `http://3.135.231.171/api/user/{user_id}/group/{group_id}`
 
 ### URI Parameter
 
@@ -43,7 +43,7 @@ DB `Group`
 
 #### Sample Request
 
-`PUT` `http://localhost:8080/api/user/1/group/2`
+`PUT` `http://3.135.231.171/api/user/1/group/2`
 
 Request Body
 

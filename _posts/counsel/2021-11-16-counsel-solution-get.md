@@ -7,7 +7,7 @@ published: true
 
 시간관리 상담 설문조사 항목에 따른 솔루션 목록들 리턴
 
-`GET` `http://localhost:8080/api/counsel-solution/{counsel_survey_id}`
+`GET` `http://3.135.231.171/api/counsel-solution/{counsel_survey_id}`
 
 ### URI Parameter
 
@@ -27,7 +27,7 @@ published: true
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/counsel-solution/1`
+`GET` `http://3.135.231.171/api/counsel-solution/1`
 
 #### Sample Response
 

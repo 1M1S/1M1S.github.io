@@ -8,7 +8,7 @@ published: true
 
 path로 전달받은 id의 유저와 댓글의 작성자를 비교해서 해당 유저가 댓글을 작성했는지 여부 체크
 
-`GET` `http://localhost:8080/api/user/{user_id}/comment/{comment_id}`
+`GET` `http://3.135.231.171/api/user/{user_id}/comment/{comment_id}`
 
 ### URI Parameter
 
@@ -29,7 +29,7 @@ path로 전달받은 id의 유저와 댓글의 작성자를 비교해서 해당 
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/comment/1035`
+`GET` `http://3.135.231.171/api/user/1/comment/1035`
 
 #### Sample Response
 

@@ -9,7 +9,7 @@ published: true
 
 > authority 값이 "승인대기"일 경우 그룹 멤버 목록을 볼 수 없다.
 
-`GET` `http://localhost:8080/api/user/{user_id}/group/{group_id}/post`
+`GET` `http://3.135.231.171/api/user/{user_id}/group/{group_id}/post`
 
 ### URI Parameter
 
@@ -31,7 +31,7 @@ published: true
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/2/group/1/post`
+`GET` `http://3.135.231.171/api/user/2/group/1/post`
 
 #### Sample Response
 
@@ -78,7 +78,7 @@ Status code: 200
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/3/group/1/post`
+`GET` `http://3.135.231.171/api/user/3/group/1/post`
 
 #### Sample Response
 

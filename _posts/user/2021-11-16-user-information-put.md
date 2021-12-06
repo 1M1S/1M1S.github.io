@@ -7,13 +7,9 @@ published: true
 
 path로 전달된 유저의 개인정보 수정
 
-`PUT` `http://localhost:8080/api/user/{user_id}/information`
+`PUT` `http://3.135.231.171/api/user/information`
 
 ### URI Parameter
-
-| Name    | In   | Required | Type | Description |
-| ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | Long | 유저의 id   |
 
 ### Request Body
 
@@ -41,14 +37,13 @@ DB `MemberInformation`
 
 #### Sample Request
 
-`PUT` `http://localhost:8080/api/user/1/information`
+`PUT` `http://3.135.231.171/api/user/information`
 
 Request Body
 
 ```json
 {
-    "nickname": "changed",
-    "email": "test@gmail.com"
+  "email" : "edited@test.com"
 }
 ```
 
@@ -58,18 +53,19 @@ Status code: 200
 
 ```json
 {
-    "id": 1,
+    "id": 1031,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 1030,
+        "username": "test",
+        "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
     },
-    "name": "chisan",
-    "nickname": "changed",
+    "name": "안치산",
+    "nickname": "테스트",
     "gender": "male",
-    "phone": "010-1234-5678",
-    "email": "test@gmail.com",
-    "registerDate": "2021-11-14T00:00:00"
+    "phone": null,
+    "email": "edited@test.com",
+    "register_date": "2021-12-06T09:27:43.784559",
+    "memberId": 1030
 }
 ```
 

@@ -1,5 +1,5 @@
 ---
-title: "회원가입/로그인/로그아웃"
+title: "회원가입/로그인"
 layout: archive
 permalink: categories/auth
 author_profile: true

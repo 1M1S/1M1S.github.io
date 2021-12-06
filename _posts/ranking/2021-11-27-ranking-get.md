@@ -8,7 +8,7 @@ published: true
 
 query로 전달된 관심분야에서 1등, 2등, 3등 순으로 Ranking 반환
 
-`GET` `http://localhost:8080/api/ranking`
+`GET` `http://3.135.231.171/api/ranking`
 
 ### URI Parameter
 
@@ -28,7 +28,7 @@ query로 전달된 관심분야에서 1등, 2등, 3등 순으로 Ranking 반환
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/ranking/top3?interest_id=0`
+`GET` `http://3.135.231.171/api/ranking/top3?interest_id=0`
 
 #### Sample Response
 

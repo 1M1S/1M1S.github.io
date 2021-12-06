@@ -8,7 +8,7 @@ published: true
 
 path로 전달된 유저의 게시글 추가
 
-`POST` `http://localhost:8080/api/user/{user_id}/post`
+`POST` `http://3.135.231.171/api/user/{user_id}/post`
 
 ### URI Parameter
 
@@ -38,7 +38,7 @@ DB `Post`
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/post`
+`POST` `http://3.135.231.171/api/user/1/post`
 
 Request Body
 

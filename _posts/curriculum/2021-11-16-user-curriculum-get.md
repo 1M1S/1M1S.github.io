@@ -8,7 +8,7 @@ published: true
 
 path로 전달된 유저의 커리큘럼 목록 반환
 
-`GET` `http://localhost:8080/api/user/{user_id}/curriculum`
+`GET` `http://3.135.231.171/api/user/{user_id}/curriculum`
 
 ### URI Parameter
 
@@ -28,7 +28,7 @@ path로 전달된 유저의 커리큘럼 목록 반환
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/curriculum`
+`GET` `http://3.135.231.171/api/user/1/curriculum`
 
 #### Sample Response
 

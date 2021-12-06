@@ -7,17 +7,20 @@ published: true
 
 path로 전달된 유저의 관심분야 추가
 
-`POST` `http://localhost:8080/api/user/{user_id}/interest`
+`POST` `http://3.135.231.171/api/user/interest`
 
 ### URI Parameter
 
-| Name        | In    | Required | Type    | Description               |
-| ----------- | ----- | -------- | ------- | ------------------------- |
-| user_id     | path  | true     | Long    | 유저의 id                 |
-| interest_id | query | true     | Long    | 관심분야 id               |
-| level       | query | true     | String | 해당 관심분야의 유저 수준 |
+### Request Body
 
-> 수준 : begiiner / junior / expert
+DB `MemberInterest`
+
+| Name        | Type          | Description               |
+| ----------- | ------------- | ------------------------- |
+| interest_id | Interest (DB) | 관심분야 id               |
+| level       | String        | 해당 관심분야의 유저 수준 |
+
+> 수준 : beginner / junior / expert
 
 ### Response
 
@@ -31,7 +34,18 @@ path로 전달된 유저의 관심분야 추가
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/interest?interest_id=1&level=expert`
+`POST` `http://3.135.231.171/api/user/interest`
+
+Request Body
+
+```json
+{
+    "interest" : {
+        "id" : 1
+    },
+    "level" : "beginner"
+}
+```
 
 #### Sample Response
 
@@ -39,17 +53,17 @@ Status code: 200
 
 ```json
 {
-    "id": 1026,
+    "id": 1040,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 1030,
+        "username": "test",
+        "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
     },
     "interest":{
         "id": 1,
-        "subject": "workout"
+        "subject": null
     },
-    "level": "expert"
+    "level": "beginner"
 }
 ```
 

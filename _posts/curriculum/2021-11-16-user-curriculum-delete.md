@@ -7,7 +7,7 @@ published: true
 
 path로 전달된 유저의 커리큘럼 삭제
 
-`DELETE` `http://localhost:8080/api/user/{user_id}/curriculum`
+`DELETE` `http://3.135.231.171/api/user/{user_id}/curriculum`
 
 ### URI Parameter
 
@@ -29,7 +29,7 @@ path로 전달된 유저의 커리큘럼 삭제
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/curriculum?curriculum_id=2`
+`DELETE` `http://3.135.231.171/api/user/1/curriculum?curriculum_id=2`
 
 #### Sample Response
 

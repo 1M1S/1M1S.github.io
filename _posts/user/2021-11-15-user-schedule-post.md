@@ -5,17 +5,13 @@ categories: user-schedule POST
 published: true
 ---
 
-path로 전달된 유저의 일정 추가
+유저의 일정 추가
 
 > 일정 생성시 완료여부는 자동으로 false로 설정되어 생성된다.
 
-`POST` `http://localhost:8080/api/user/{user_id}/schedule`
+`POST` `http://3.135.231.171/api/user/schedule`
 
 ### URI Parameter
-
-| Name    | In   | Required | Type | Description |
-| ------- | ---- | -------- | ---- | ----------- |
-| user_id | path | true     | Long | 유저의 id   |
 
 ### Request Body
 
@@ -40,17 +36,17 @@ DB `MemberSchedule`
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/schedule`
+`POST` `http://3.135.231.171/api/user/schedule`
 
 Request Body
 
 ```json
 {
-    "content": "post",
+    "content": "post2",
     "startTime": "2021-11-18T13:54:57",
     "endTime": "2021-11-18T14:54:25",
     "interest": {
-        "id": 1
+        "id": 3
     }
 }
 ```
@@ -61,18 +57,18 @@ Status code: 200
 
 ```json
 {
-    "id": 1025,
+    "id": 10,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
-    "content": "post",
+    "content": "post2",
     "startTime": "2021-11-18T13:54:57",
     "endTime": "2021-11-18T14:54:25",
     "finish": false,
     "interest":{
-        "id": 1,
+        "id": 3,
         "subject": null
     }
 }

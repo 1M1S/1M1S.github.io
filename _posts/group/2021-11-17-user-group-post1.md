@@ -7,7 +7,7 @@ published: true
 
 path로 전달된 유저를 그룹장으로 그룹 생성.
 
-`POST` `http://localhost:8080/api/user/{user_id}/group`
+`POST` `http://3.135.231.171/api/user/{user_id}/group`
 
 ### URI Parameter
 
@@ -39,7 +39,7 @@ DB `Group`
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/group`
+`POST` `http://3.135.231.171/api/user/1/group`
 
 Request Body
 

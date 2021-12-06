@@ -7,7 +7,7 @@ published: true
 
 path로 전달받은 id의 유저와 댓글의 작성자를 비교해서 해당 유저가 게시글을 작성했다면 댓글 삭제.
 
-`DELETE` `http://localhost:8080/api/user/{user_id}/comment/{comment_id}`
+`DELETE` `http://3.135.231.171/api/user/{user_id}/comment/{comment_id}`
 
 ### URI Parameter
 
@@ -29,7 +29,7 @@ path로 전달받은 id의 유저와 댓글의 작성자를 비교해서 해당 
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/comment/1036`
+`DELETE` `http://3.135.231.171/api/user/1/comment/1036`
 
 #### Sample Response
 

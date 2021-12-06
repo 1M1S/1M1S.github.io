@@ -18,7 +18,7 @@ path로 전달된 유저의 일정 수정
 >   * 관심사가 변경되면 점수 이동
 >   * 시작시간, 종료시간이 변경되면 점수 변경
 
-`PUT` `http://localhost:8080/api/user/{user_id}/schedule/{member_schedule_id}`
+`PUT` `http://3.135.231.171/api/user/schedule/{member_schedule_id}`
 
 ### URI Parameter
 
@@ -53,14 +53,15 @@ DB `MemberSchedule`
 
 #### Sample Request
 
-`PUT` `http://localhost:8080/api/user/1/schedule/1025`
+`PUT` `http://3.135.231.171/api/user/schedule/10`
 
 Request Body
 
 ```json
 {
-    "content": "수정된 일정",
-    "finish": true
+    "content": "edited post2",
+    "startTime": "2021-11-18T15:54:57",
+    "endTime": "2021-11-18T18:54:25"
 }
 ```
 
@@ -70,19 +71,19 @@ Status code: 200
 
 ```json
 {
-    "id": 1025,
+    "id": 10,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 3,
+        "username": "test",
+        "password": "$2a$10$ox4kqouwAtL1Bi7grOEXROfsZfEvr1qR160Cggn17ugdoPbNjLqvO"
     },
-    "content": "수정된 일정",
-    "startTime": "2021-11-18T13:54:57",
-    "endTime": "2021-11-18T14:54:25",
-    "finish": true,
+    "content": "edited post2",
+    "startTime": "2021-11-18T15:54:57",
+    "endTime": "2021-11-18T18:54:25",
+    "finish": false,
     "interest":{
-        "id": 1,
-        "subject": "workout"
+        "id": 3,
+        "subject": "employ"
     }
 }
 ```

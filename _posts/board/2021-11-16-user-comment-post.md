@@ -7,7 +7,7 @@ published: true
 
 query로 전달된 게시글의 유저 댓글 추가
 
-`POST` `http://localhost:8080/api/user/{user_id}/comment`
+`POST` `http://3.135.231.171/api/user/{user_id}/comment`
 
 ### URI Parameter
 
@@ -36,7 +36,7 @@ DB `Comment`
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/comment?post_id=1032`
+`POST` `http://3.135.231.171/api/user/1/comment?post_id=1032`
 
 Request Body
 

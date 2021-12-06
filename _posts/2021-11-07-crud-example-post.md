@@ -5,7 +5,7 @@ categories: tutorial
 ---
 시간, 내용을 전달받아 일정을 생성하고, 생성된 일정을 반환한다.
 
-`POST` `http://localhost:8080`
+`POST` `http://3.135.231.171`
 
 ### URI Parameter
 
@@ -24,7 +24,7 @@ categories: tutorial
 
 #### Sample Request
 
-`POST` `http://localhost:8080?time=6:00PM&content=dinner`
+`POST` `http://3.135.231.171?time=6:00PM&content=dinner`
 
 #### Sample Response
 

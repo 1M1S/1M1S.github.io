@@ -9,7 +9,7 @@ published: true
 
 path로 전달된 유저의 관심분야 삭제
 
-`DELETE` `http://localhost:8080/api/user/{user_id}/interest/{member_interest_id}`
+`DELETE` `http://3.135.231.171/api/user/interest/{member_interest_id}`
 
 ### URI Parameter
 
@@ -31,7 +31,7 @@ path로 전달된 유저의 관심분야 삭제
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/user/1/interest/1026`
+`DELETE` `http://3.135.231.171/api/user/interest/1040`
 
 #### Sample Response
 
@@ -39,17 +39,17 @@ Status code: 200
 
 ```json
 {
-    "id": 1026,
+    "id": 1040,
     "member":{
-        "id": 1,
-        "username": "user1",
-        "password": "1234"
+        "id": 1030,
+        "username": "test",
+        "password": "$2a$10$7JpJLI4KUV82mMcmNMY2A.rptegu4WxvgtjYsONETJQNrpSR8rZa6"
     },
     "interest":{
         "id": 1,
-        "subject": "workout"
+        "subject": "exercise"
     },
-    "level": 5
+    "level": "junior"
 }
 ```
 

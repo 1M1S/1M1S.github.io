@@ -8,7 +8,7 @@ published: true
 
 유저별 시간관리 상담 후 결과 저장.
 
-`POST` `http://localhost:8080/api/user/{user_id}/counsel-result`
+`POST` `http://3.135.231.171/api/user/{user_id}/counsel-result`
 
 ### URI Parameter
 
@@ -34,7 +34,7 @@ published: true
 
 #### Sample Request
 
-`POST` `http://localhost:8080/api/user/1/counsel-result`
+`POST` `http://3.135.231.171/api/user/1/counsel-result`
 
 Request Body
 

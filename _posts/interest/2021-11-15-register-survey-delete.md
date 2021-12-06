@@ -7,7 +7,7 @@ published: false
 
 회원가입 설문조사 항목 삭제.
 
-`DELETE` `http://localhost:8080/api/admin/register-survey/{register_survey_id}`
+`DELETE` `http://3.135.231.171/api/admin/register-survey/{register_survey_id}`
 
 ### URI Parameter
 
@@ -27,7 +27,7 @@ published: false
 
 #### Sample Request
 
-`DELETE` `http://localhost:8080/api/admin/register-survey/1022`
+`DELETE` `http://3.135.231.171/api/admin/register-survey/1022`
 
 #### Sample Response
 

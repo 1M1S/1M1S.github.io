@@ -7,7 +7,7 @@ published: true
 
 유저가 속해있는 그룹들 목록 읽어오기
 
-`GET` `http://localhost:8080/api/user/{user_id}/group`
+`GET` `http://3.135.231.171/api/user/{user_id}/group`
 
 ### URI Parameter
 
@@ -27,7 +27,7 @@ published: true
 
 #### Sample Request
 
-`GET` `http://localhost:8080/api/user/1/group`
+`GET` `http://3.135.231.171/api/user/1/group`
 
 #### Sample Response
 
