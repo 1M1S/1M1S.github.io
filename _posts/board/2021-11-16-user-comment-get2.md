@@ -1,7 +1,7 @@
 ---
 title: "댓글 유저의 작성여부 반환 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: user-comment GET
+categories: user-comment
 published: true
 
 ---

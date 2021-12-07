@@ -1,7 +1,7 @@
 ---
 title: "유저가 작성한 댓글 목록 반환 [GET]"
 date: 2021-11-15 22:21:00 +0900
-categories: user-comment GET
+categories: user-comment
 published: true
 
 
